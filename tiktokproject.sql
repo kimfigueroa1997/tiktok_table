@@ -44,8 +44,3 @@ JOIN numbers
 WHERE follower_count > 10000 AND
 	  products_sold > 100
 ORDER BY numbers.products_sold DESC; 
-
-  
-SELECT COUNT(creator) AS num_users
-FROM tiktok
-WHERE follower_count > 10000;
